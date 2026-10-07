@@ -1,0 +1,26 @@
+{
+  "name": "quant-service-selling",
+  "version": "1.0.0",
+  "description": "把 A 股量化技术能力翻译成明码标价服务，并生成闲鱼/小红书/雪球三平台获客文案",
+  "author": "OneQuant 量化实战沉淀",
+  "license": "MIT",
+  "created_at": "2026-10-07",
+  "structure": {
+    "SKILL.md": "技能主文件，触发条件与执行流程",
+    "references/": [
+      "platform-compliance.md — 平台红线与自动化风险对照"
+    ]
+  },
+  "keywords": [
+    "报价",
+    "变现",
+    "获客",
+    "文案",
+    "闲鱼",
+    "小红书",
+    "雪球",
+    "接单"
+  ],
+  "install": "npx skills add <repo-url> --skill quant-service-selling",
+  "usage": "直接在 WorkBuddy / 豆包中说「用<技能名> ...」即可触发"
+}

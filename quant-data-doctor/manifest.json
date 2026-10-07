@@ -1,0 +1,24 @@
+{
+  "name": "quant-data-doctor",
+  "version": "1.0.0",
+  "description": "A 股量化数据的七项诊断（完整性/静默失败/单位归一/复权/幸存者偏差/前视偏差），输出结构化诊断报告",
+  "author": "OneQuant 量化实战沉淀",
+  "license": "MIT",
+  "created_at": "2026-10-07",
+  "structure": {
+    "SKILL.md": "技能主文件，触发条件与执行流程",
+    "references/": [
+      "data-source-reliability.md — 数据源可靠性与静默失败检测"
+    ]
+  },
+  "keywords": [
+    "数据诊断",
+    "数据体检",
+    "回测可信度",
+    "单位",
+    "复权",
+    "幸存者偏差"
+  ],
+  "install": "npx skills add <repo-url> --skill quant-data-doctor",
+  "usage": "直接在 WorkBuddy / 豆包中说「用<技能名> ...」即可触发"
+}
